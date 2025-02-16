@@ -1,0 +1,14 @@
+E:\microsoft_prep\arrays\Arrays_Ps\bin\Debug\net8.0\Arrays_Ps.exe
+E:\microsoft_prep\arrays\Arrays_Ps\bin\Debug\net8.0\Arrays_Ps.deps.json
+E:\microsoft_prep\arrays\Arrays_Ps\bin\Debug\net8.0\Arrays_Ps.runtimeconfig.json
+E:\microsoft_prep\arrays\Arrays_Ps\bin\Debug\net8.0\Arrays_Ps.dll
+E:\microsoft_prep\arrays\Arrays_Ps\bin\Debug\net8.0\Arrays_Ps.pdb
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.GeneratedMSBuildEditorConfig.editorconfig
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.AssemblyInfoInputs.cache
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.AssemblyInfo.cs
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.csproj.CoreCompileInputs.cache
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.dll
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\refint\Arrays_Ps.dll
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.pdb
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\Arrays_Ps.genruntimeconfig.cache
+E:\microsoft_prep\arrays\Arrays_Ps\obj\Debug\net8.0\ref\Arrays_Ps.dll

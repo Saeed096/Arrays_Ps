@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Arrays_Ps/1.0.0": {
+        "runtime": {
+          "Arrays_Ps.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Arrays_Ps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
