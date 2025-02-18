@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\microsoft_prep\\arrays\\Arrays_Ps\\Arrays_Ps.csproj": {}
+    "E:\\microsoft_prep\\arrays\\Arrays_ps\\Arrays_Ps.csproj": {}
   },
   "projects": {
-    "E:\\microsoft_prep\\arrays\\Arrays_Ps\\Arrays_Ps.csproj": {
+    "E:\\microsoft_prep\\arrays\\Arrays_ps\\Arrays_Ps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\microsoft_prep\\arrays\\Arrays_Ps\\Arrays_Ps.csproj",
+        "projectUniqueName": "E:\\microsoft_prep\\arrays\\Arrays_ps\\Arrays_Ps.csproj",
         "projectName": "Arrays_Ps",
-        "projectPath": "E:\\microsoft_prep\\arrays\\Arrays_Ps\\Arrays_Ps.csproj",
+        "projectPath": "E:\\microsoft_prep\\arrays\\Arrays_ps\\Arrays_Ps.csproj",
         "packagesPath": "C:\\Users\\Mohammed Ali\\.nuget\\packages\\",
-        "outputPath": "E:\\microsoft_prep\\arrays\\Arrays_Ps\\obj\\",
+        "outputPath": "E:\\microsoft_prep\\arrays\\Arrays_ps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

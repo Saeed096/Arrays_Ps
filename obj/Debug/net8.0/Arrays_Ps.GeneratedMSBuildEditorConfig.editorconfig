@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Arrays_Ps
-build_property.ProjectDir = E:\microsoft_prep\arrays\Arrays_Ps\
+build_property.ProjectDir = E:\microsoft_prep\arrays\Arrays_ps\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

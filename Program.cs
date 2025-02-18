@@ -4,14 +4,15 @@
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello, World!");
+            // Console.WriteLine("Hello, World!");
 
-           //int result = MaxSubArray(new[]{1, -2, 1, -3, 4, -1, 2, 1, -10, 4 , 5}); // here 1st index should be 9 not 4
+            //int result = MaxSubArray(new[]{1, -2, 1, -3, 4, -1, 2, 1, -10, 4 , 5}); // here 1st index should be 9 not 4
 
-           // Console.WriteLine(result);
+            // Console.WriteLine(result);
 
 
-             RemoveElement([3,2,2,3] , 3);
+            //RemoveElement([3,2,2,3] , 3);
+            MoveZeroes2([0, 1, 0, 3, 12]);
         }
 
 
@@ -121,6 +122,64 @@
             }
 
             return result;
+        }
+
+
+
+
+
+        /// leetcode 283
+        public static void MoveZeroes(int[] nums)
+        {
+            int zeroCount = 0;
+            int lastIndex = nums.Length - 1;
+
+            for(int i = 0; i < nums.Length - zeroCount; i++)
+            {
+                if (nums[i] == 0)
+                {
+                    while (nums[lastIndex - zeroCount] == 0 && lastIndex >= zeroCount)
+                    {
+                        zeroCount++;
+                    }
+                    if(i < nums.Length - zeroCount)
+                    {
+                        swap(nums, i, lastIndex - zeroCount);
+                    }
+
+                }
+            }
+        }
+
+        // better solution
+        public static void MoveZeroes2(int[] nums)
+        {
+           for(int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 0)
+                {
+                    int tempNextIndex = i + 1;
+                    while(tempNextIndex < nums.Length && nums[tempNextIndex] == 0)
+                    {
+                        tempNextIndex++;
+                    }
+                    if(tempNextIndex < nums.Length)
+                    {
+                        swap(nums, i, tempNextIndex);
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+            }
+        }
+
+        public static void swap(int[] nums, int firstIndex , int secondIndex)
+        {
+            int temp = nums[firstIndex];
+            nums[firstIndex] = nums[secondIndex];
+            nums[secondIndex] = temp;
         }
     }
 }
