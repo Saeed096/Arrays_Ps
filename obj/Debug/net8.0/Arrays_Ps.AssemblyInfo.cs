@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arrays_Ps")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55192481f10508624bd519432b035b282dd35691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa24c6bae99c080225206768b6f021d07e5c6d5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arrays_Ps")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arrays_Ps")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

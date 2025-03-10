@@ -13,6 +13,8 @@
 
             //RemoveElement([3,2,2,3] , 3);
             MoveZeroes2([0, 1, 0, 3, 12]);
+
+            Rotate([1, 2, 3, 4, 5, 6, 7] , 3);
         }
 
 
@@ -180,6 +182,37 @@
             int temp = nums[firstIndex];
             nums[firstIndex] = nums[secondIndex];
             nums[secondIndex] = temp;
+        }
+
+
+        public static void Rotate(int[] nums, int k)
+        {
+            int[] tempNums = new int[nums.Length];
+
+            for(int i = 0; i < nums.Length; i++)
+            {
+                tempNums[i] = nums[i];
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if(i + k < nums.Length)
+                {
+                    nums[i + k] = tempNums[i];
+                }
+
+                else
+                {
+
+                    int newIndex = i + k - nums.Length;
+
+                    while(newIndex >= nums.Length)
+                    {
+                        newIndex -= nums.Length;
+                    }
+                    nums[newIndex] = tempNums[i];
+                }
+            }
         }
     }
 }
