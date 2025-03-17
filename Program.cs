@@ -194,7 +194,7 @@
                 tempNums[i] = nums[i];
             }
 
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)  
             {
                 if(i + k < nums.Length)
                 {
@@ -212,6 +212,31 @@
                     }
                     nums[newIndex] = tempNums[i];
                 }
+            }
+        }
+
+
+        public static void Rotate2(int[] nums, int k)
+        {
+            int n = nums.Length;
+            k = k % n;
+
+            Reverse(nums , 0 , n - 1);
+            Reverse(nums , 0 , k - 1 );
+            Reverse(nums , k , n - 1 );
+        }
+
+        private static void Reverse(int[] nums , int left , int right)
+        {
+            while(left < right) 
+            {
+                int temp = nums[left];
+
+                nums[left] = nums[right];
+                nums[right] = temp;
+
+                left++;
+                right--;
             }
         }
     }
