@@ -221,9 +221,12 @@
             int n = nums.Length;
             k = k % n;
 
-            Reverse(nums , 0 , n - 1);
-            Reverse(nums , 0 , k - 1 );
-            Reverse(nums , k , n - 1 );
+            Reverse(nums , 0 , n - 1);  // as well as shifting must happen with at least 1 step >> last element will take place of the 1st element at least if only 1 shifting step >> that is why we reverse the whole array 
+            Reverse(nums , 0 , k - 1 );  // if shifting was more than 1 step >> last element should be 2nd or third ... not the first based on num of shifting steps and element which was before last one should also appear before it here >> that is why reverse starting from 0 to k - 1
+            Reverse(nums , k , n - 1 );   // reverse the rest of array to make sure that elements that was appearing first still appear first after shifting >> that is why reverse starting from k to n - 1
+            // ex >> 1 ,2 , 3 , 4 , 5 >> 1st reverse to make sure >> 5 start the order as >> min shift will be by 1 step which will also move it to the first
+            // // 2nd reverse to make sure if shifting was more than 1 step so some elements should appear before 5 so reverse them 
+            // 3rd reverse >> to make sure that the rest of the elements still appear by the right order >> which come first in the original array stay appearing first in the shifted array
         }
 
         private static void Reverse(int[] nums , int left , int right)
